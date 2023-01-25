@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Test lowest",
+      "setup": "",
+      "run": "gradle test --tests TestMethodAssignment.testLowest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test highest",
+      "setup": "",
+      "run": "gradle test --tests TestMethodAssignment.testHighest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test average",
+      "setup": "",
+      "run": "gradle test --tests TestMethodAssignment.testCalculateAverage",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 3
+    }
+  ]
+}
