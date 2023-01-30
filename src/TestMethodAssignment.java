@@ -13,7 +13,7 @@ public class TestMethodAssignment {
      array = new int[]{1, 2, 3, 4, 5, 6, -1};
      assertEquals(-1, MethodAssignment.lowest(array));
    }
-   @Test
+  @Test
    public void testHighest()
    {
      int[] array = {1, 2, 3};
