@@ -29,7 +29,7 @@ public class MethodAssignment {
         int big= input2[0];
 		for(int i=0; i<input2.length;i++){
             if(big<input2[i]){
-                input2[i]=big;
+                big=input2[i];
             }
         }
         return big;
